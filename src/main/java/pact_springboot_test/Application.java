@@ -31,4 +31,9 @@ public class Application {
     };
   }
 
+  @Bean(destroyMethod = "shutdown")
+  public DummyService dummyService() {
+    return new DummyService();
+  }
+
 }

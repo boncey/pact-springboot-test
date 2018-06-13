@@ -1,7 +1,12 @@
+server:
+  port: 8888
+  address: localhost
+
+
 pactbroker:
-  host: "test.pact.dius.com.au"
-  port: "443"
-  protocol: "https"
+  host: "localhost"
+  port: "80"
+  protocol: "http"
   auth:
     username: ""
     password: ""
